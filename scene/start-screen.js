@@ -14,6 +14,15 @@ class StartScreen extends Scene {
                     new Button("high scores", () => game.scene = new HighScores()),
                     new Button("quit", () => window.close()),
                 ]
+            ),
+            new AnimationSprite(
+                "spritesheet", 
+                new Area(
+                    new Position(0, 0), 
+                    150, 
+                    100
+                ), 
+                2
             )
         ];
 

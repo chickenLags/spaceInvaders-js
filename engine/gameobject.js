@@ -1,9 +1,10 @@
 
 
-class GameObject extends area {
+class GameObject extends Area {
     sprite;
 
-    constructor() {
-        super();
+    constructor(sprite, start, width, heigth) {
+        super(start, width, height);
+        
     }
 }
